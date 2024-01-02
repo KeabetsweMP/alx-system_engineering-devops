@@ -18,4 +18,3 @@ if __name__ == "__main__":
                 "username": username
             } for t in todos]}, jsonfile)
 
-

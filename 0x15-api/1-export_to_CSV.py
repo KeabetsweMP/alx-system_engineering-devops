@@ -17,4 +17,3 @@ if __name__ == "__main__":
             [user_id, username, t.get("completed"), t.get("title")]
          ) for t in todos]
 
-
