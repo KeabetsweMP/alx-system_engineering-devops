@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 """Module for task 2"""
 
 
@@ -26,4 +26,3 @@ def recurse(subreddit, hot_list=[], count=0, after=None):
 
     return recurse(subreddit, hot_l, info.get("data").get("count"),
                    info.get("data").get("after"))
-
